@@ -63,6 +63,8 @@ overview {
 environment {
   XDG_CURRENT_DESKTOP "niri"
 }
+
+spawn-at-startup "gnome-keyring-daemon" "--start" "--components=secrets"
 hotkey-overlay {
     skip-at-startup
 }
