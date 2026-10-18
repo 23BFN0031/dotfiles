@@ -118,7 +118,7 @@ alias Yc="sudo rm -rf /var/cache/pacman/pkg/download-*"
 alias ls="lsd"
 alias ll="ls -la"
 alias vim="zeditor"
-alias fetch --infinite="fetch"
+alias fetch="fetch --infinite"
 alias cat="bat"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
