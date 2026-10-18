@@ -136,6 +136,7 @@ window-rule {
 binds {
     Mod+Shift+Return { spawn "zen-browser"; }
     Mod+Z { spawn "zeditor"; }
+    Mod+E hotkey-overlay-title="File Manager (yazi)" { spawn "ghostty" "-e" "yazi"; }
 }
 
 // Include dms files
