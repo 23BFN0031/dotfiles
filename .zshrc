@@ -88,6 +88,9 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
+# Lock the history file to prevent corruption from concurrent shells
+setopt HIST_FCNTL_LOCK
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
